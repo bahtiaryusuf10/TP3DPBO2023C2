@@ -1,4 +1,4 @@
-### Saya Muhammad Yusuf Bahtiar NIM 2107980 mengerjakan Tugas Prkatikum 3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+### Saya Muhammad Yusuf Bahtiar NIM 2107980 mengerjakan Tugas Praktikum 3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 <br>
 
@@ -16,6 +16,8 @@ Buatlah program menggunakan bahasa pemrograman PHP dengan spesifikasi sebagai be
   <br>
 
 ## Desain Program
+
+![Design-DataBase](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/dee4c7fb-f98c-429a-a6da-ddbf7a1efe02)
 
 Program didesain menggunakan 5 tabel, yaitu:
 
@@ -69,9 +71,7 @@ Program akan menampilkan halaman `Home` yang berisi daftar pemain dalam bentuk c
 4. Jika pengguna meng-klik menu `Stadium List` di navigation bar, maka akan menampilkan daftar stadion beserta informasinya dalam bentuk tabel dan menu `Add` di navigation bar sebelumnya berubah menjadi `Add Stadium`. Tersedia juga icon update untuk mengubah data stadion yang ketika di-klik akan menampilkan modal form berisi beberapa field yang dapat diubah oleh pengguna, dan tombol delete yang ketika di-klik akan langsung menghapus data stadion.
 5. Jika pengguna meng-klik menu `Match List` di navigation bar, maka akan menampilkan daftar jadwal pertandingan beserta informasinya dalam bentuk tabel dan menu `Add` di navigation bar sebelumnya berubah menjadi `Add Match`. Tersedia juga icon update untuk mengubah data pertandingan yang ketika di-klik akan menampilkan modal form berisi beberapa field yang dapat diubah oleh pengguna, dan tombol delete yang ketika di-klik akan langsung menghapus data stadion.
 
-- Halaman create akan ditampilkan ketika pengguna meng-klik menu `Add` di navigation bar dan fieldnya akan disesuaikan dengan data yang diperlukan oleh setiap tabel, contohnya jika yang di-klik `Add Player`, maka akan ditampilkan field yang diperlukan untuk data pemain, jika yang di-klik `Add Club`, maka akan ditampilkan field yang diperlukan untuk data club, dan seterusnya.
-
-Program akan menampilkan frame berisi 2 objek, yakni objek _player_ yang direpresentasikan dalam bentuk lingkaran dan objek _box_ yang direpresentasikan dalam bentuk persegi. Tombol untuk mengendalikan objek _player_ dapat menggunakan _WASD_ atau _arrow key_, informasi _score_ yang ditampilkan di layar akan bertambah +1 ketika _user_ menggerakkan objek _player_ berganti-ganti arah (sesuai deskripsi tugas). Terdapat juga sistem collision, yakni ketika objek _player_ mengenai objek _box_, maka _score_ terkini akan ditambah +5, objek _box_ tersebut akan dihapus dan dibuat kembali, tetapi ditempatkan secara acak.
+*Note : Halaman create akan ditampilkan ketika pengguna meng-klik menu `Add` di navigation bar dan fieldnya akan disesuaikan dengan data yang diperlukan oleh setiap tabel, contohnya jika yang di-klik `Add Player`, maka akan ditampilkan field yang diperlukan untuk data pemain, jika yang di-klik `Add Club`, maka akan ditampilkan field yang diperlukan untuk data club, dan seterusnya.
 
 <br>
 

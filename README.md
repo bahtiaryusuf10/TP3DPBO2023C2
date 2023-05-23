@@ -47,9 +47,9 @@ Program didesain menggunakan 5 tabel, yaitu:
 4. Tabel matches memiliki 4 atribut diantaranya:
 
    - id untuk id pertandingan
-   - home_id untuk foreign key dari atribut id pada tabel clubs
-   - away_id untuk foreign key dari atribut id pada tabel clubs
-   - date untuk waktu pertandingan di selenggarakan
+   - home_club_id untuk foreign key dari atribut id pada tabel clubs
+   - away_club_id untuk foreign key dari atribut id pada tabel clubs
+   - date untuk waktu pertandingan diselenggarakan
 
 5. Tabel stadiums memiliki 4 atribut diantaranya:
 
@@ -63,16 +63,38 @@ Dari desain yang dirancang tersebut, dapat dilihat bahwa terdapat beberapa relas
 
 ## Alur Program
 
-Program akan menampilkan halaman `Home` yang berisi daftar pemain dalam bentuk card dan dilengkapi beberapa menu di navigation bar, diantarnya `Add Player`, `Club List`, `Stadium List`, dan `Match List`.
+Program akan menampilkan halaman `Home` yang berisi daftar pemain dalam bentuk card dan dilengkapi beberapa menu di navigation bar, diantarnya `Add Player`, `Club List`, `Stadium List`, `Match List`, dan `Search Bar`. Menu `Search Bar` pada halaman `Home` dapat digunakan untuk mencari pemain berdasarkan nama pemain, nama klub, atau posisi pemain di klub. Pada halaman `Home` juga tersedia fitur sorting dapat secara ascending/descending berdasarkan id klub.
 
 1. Jika pengguna meng-klik card pemain, maka akan menampilkan detail dari pemain tersebut. Tersedia juga tombol update untuk mengubah data pemain yang ketika di-klik akan langsung diarahkan ke halaman form update (templatenya sama dengan create), dan tombol delete yang ketika di-klik akan langsung menghapus data pemain.
 2. Jika pengguna meng-klik menu `Add Player` di navigation bar, maka akan langsung diarahkan ke halaman form create. Tersedia beberapa field yang harus diisi oleh pengguna untuk data pemain sebelum menambahkannya dengan meng-klik tombol Add Player.
-3. Jika pengguna meng-klik menu `Club List` di navigation bar, maka akan menampilkan daftar klub beserta informasinya dalam bentuk tabel dan menu `Add` di navigation bar sebelumnya berubah menjadi `Add Club`. Tersedia juga icon update untuk mengubah data klub yang ketika di-klik akan menampilkan modal form berisi beberapa field yang dapat diubah oleh pengguna, dan tombol delete yang ketika di-klik akan langsung menghapus data klub.
-4. Jika pengguna meng-klik menu `Stadium List` di navigation bar, maka akan menampilkan daftar stadion beserta informasinya dalam bentuk tabel dan menu `Add` di navigation bar sebelumnya berubah menjadi `Add Stadium`. Tersedia juga icon update untuk mengubah data stadion yang ketika di-klik akan menampilkan modal form berisi beberapa field yang dapat diubah oleh pengguna, dan tombol delete yang ketika di-klik akan langsung menghapus data stadion.
-5. Jika pengguna meng-klik menu `Match List` di navigation bar, maka akan menampilkan daftar jadwal pertandingan beserta informasinya dalam bentuk tabel dan menu `Add` di navigation bar sebelumnya berubah menjadi `Add Match`. Tersedia juga icon update untuk mengubah data pertandingan yang ketika di-klik akan menampilkan modal form berisi beberapa field yang dapat diubah oleh pengguna, dan tombol delete yang ketika di-klik akan langsung menghapus data stadion.
+3. Jika pengguna meng-klik menu `Club List` di navigation bar, maka akan menampilkan daftar klub beserta informasinya dalam bentuk tabel dan menu `Add` di navigation bar sebelumnya berubah menjadi `Add Club`. Tersedia juga icon update untuk mengubah data klub yang ketika di-klik akan menampilkan modal form berisi beberapa field yang dapat diubah oleh pengguna, dan tombol delete yang ketika di-klik akan langsung menghapus data klub. Pada halaman `Club List`, menu `Search Bar` dapat digunakan untuk mencari klub berdasarkan nama klub atau nama pelatih.
+4. Jika pengguna meng-klik menu `Stadium List` di navigation bar, maka akan menampilkan daftar stadion beserta informasinya dalam bentuk tabel dan menu `Add` di navigation bar sebelumnya berubah menjadi `Add Stadium`. Tersedia juga icon update untuk mengubah data stadion yang ketika di-klik akan menampilkan modal form berisi beberapa field yang dapat diubah oleh pengguna, dan tombol delete yang ketika di-klik akan langsung menghapus data stadion. Pada halaman `Stadium List`, menu `Search Bar` dapat digunakan untuk mencari stadion berdasarkan nama stadion atau lokasi stadion.
+5. Jika pengguna meng-klik menu `Match List` di navigation bar, maka akan menampilkan daftar jadwal pertandingan beserta informasinya dalam bentuk tabel dan menu `Add` di navigation bar sebelumnya berubah menjadi `Add Match`. Tersedia juga icon update untuk mengubah data pertandingan yang ketika di-klik akan menampilkan modal form berisi beberapa field yang dapat diubah oleh pengguna, dan tombol delete yang ketika di-klik akan langsung menghapus data stadion. Pada halaman `Match List`, menu `Search Bar` dapat digunakan untuk mencari data pertandingan berdasarkan nama klub yang bertanding atau waktu pertandingan.
 
 *Note : Halaman create akan ditampilkan ketika pengguna meng-klik menu `Add` di navigation bar dan fieldnya akan disesuaikan dengan data yang diperlukan oleh setiap tabel, contohnya jika yang di-klik `Add Player`, maka akan ditampilkan field yang diperlukan untuk data pemain, jika yang di-klik `Add Club`, maka akan ditampilkan field yang diperlukan untuk data club, dan seterusnya.
 
 <br>
 
 ## Dokumentasi
+- Home
+![Home](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/5e67a5ed-31f8-481c-b052-0b0c78e0bb0f)
+
+- Player Details
+![Detail](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/7da29a63-2ee0-4560-bd44-0499da4a036b)
+
+- Form Create (example: Player)
+![Form-Create](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/48b9be28-3147-4679-9931-d81476adcc50)
+
+- Club List
+![Club-List](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/78ce271f-0600-46d7-b296-77f1c5aea816)
+
+- Stadium List
+![Stadium-List](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/5b193585-506c-41c9-b99c-319f3270be95)
+
+- Match List
+![Match-List](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/ce198a16-10bd-4208-a089-bd42d28067e9)
+
+- Form Update (example: Club)
+![Form-Update](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/a06430c0-de5e-4eec-b9d0-950cacb0ba96)
+
+- Video

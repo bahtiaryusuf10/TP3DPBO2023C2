@@ -13,7 +13,8 @@ Buatlah program menggunakan bahasa pemrograman PHP dengan spesifikasi sebagai be
 - Menggunakan template/skin form tambah data dan ubah data yang sama
 - 1 tabel pada database ditampilkan dalam bentuk bukan tabel, 2 tabel sisanya ditampilkan dalam bentuk tabel (seperti contoh saat praktikum)
 - Menggunakan template/skin tabel yang sama untuk menampilkan tabel
-  <br>
+  
+<br>
 
 ## Desain Program
 
@@ -59,6 +60,7 @@ Program didesain menggunakan 5 tabel, yaitu:
    - photo untuk identitas fisik stadion
 
 Dari desain yang dirancang tersebut, dapat dilihat bahwa terdapat beberapa relasi, diantaranya relasi _many to one_ antara tabel players dan positions karena setiap pemain hanya dapat memiliki 1 posisi (role) di klub, relasi _many to one_ antara tabel players dan clubs karena setiap pemain juga hanya dapat terikat kontrak dengan 1 club saja, _one to one_ antara tabel clubs dan stadiums karena setiap 1 stadion dirancang untuk dimiliki oleh 1 klub saja, dan _one to many_ antara tabel clubs dan matches karena setiap klub dapat memainkan banyak pertandingan.
+
 <br>
 
 ## Alur Program
@@ -98,3 +100,4 @@ Program akan menampilkan halaman `Home` yang berisi daftar pemain dalam bentuk c
 ![Form-Update](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/a06430c0-de5e-4eec-b9d0-950cacb0ba96)
 
 - Video
+https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/013c0170-74c2-432c-bfb3-44e4a69d7371

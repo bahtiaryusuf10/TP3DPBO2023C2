@@ -100,4 +100,5 @@ Program akan menampilkan halaman `Home` yang berisi daftar pemain dalam bentuk c
 ![Form-Update](https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/a06430c0-de5e-4eec-b9d0-950cacb0ba96)
 
 - Video
-https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/013c0170-74c2-432c-bfb3-44e4a69d7371.mp4
+
+https://github.com/bahtiaryusuf10/TP3DPBO2023C2/assets/100776170/013c0170-74c2-432c-bfb3-44e4a69d7371
